@@ -1,0 +1,26 @@
+p{
+    color: red;
+    font-size: 5em;
+    text-align: center;
+}
+
+.toto {
+    width: 100rem;
+    height: 100rem;
+    background: #000;
+
+    .dans-toto {
+        width: 20rem;
+        height: 20rem;
+        background: purple;
+
+        &:hover {
+            background: #000;
+        }
+    }
+
+    &:hover {
+        background: #980141;
+    }
+
+}
