@@ -1,18 +1,141 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"><p>Hello world !</p></div>
-    <div class="toto">
-      <div class="dans-toto">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="../scss/style.scss">
+        <link rel="icon" type="image/svg+xml" href="../vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="intitule">
+                <h3>Portfolio - accueil</h3>
+            </div>
+    
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Accueil</li>
+                    </a>
 
-      </div>
-    </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+                    <a href="competences.html">
+                        <li>Compétences</li>
+                    </a>
+
+                    <a href="formation.html">
+                        <li>Formation</li>
+                    </a>
+
+                    <a href="contact.html">
+                        <li>Contact</li>
+                    </a>  
+                </ul>
+            </nav>
+    
+            <div class="moncv">
+                <a href="public/document">
+                    <p>Mon CV</p>
+                    <img src="public/icones/telechargement1.png">
+                </a>
+            </div>
+        </header>
+
+        <main class="main-accueil">
+            <section class="présentation">
+                <article class="cadre">
+                    <div>
+                        <h1 class="nom">VALENTIN CONCHIS</h1>
+                        <h3 class="age">19 ans</h3>
+                        <hr>
+                        <h3 class="metier">Développeur</h3>
+                    </div>
+
+                    <figure class="photo-profil">
+                        <img src="images/29-1.jpg" alt="Photo de profil" title="Photo de profil">
+                    </figure>
+                </article>
+                
+                <article class="link">
+                    <figure>
+                        <img src="public/icones/fleche.png">
+                    </figure>
+                    <a class = "Apropos-link" href="#APropos">Qui suis-je ?</a>
+                    <figure>
+                        <img src="public/icones/fleche.png">
+                    </figure>
+                </article>
+            </section>
+
+            <section class="separator">
+                <div></div>  
+            </section>
+           
+            <section class="apropos">
+                <article class="titreApropos">
+                    <h2 id="APropos">A propos</h2>
+                </article>
+
+                <article class="introduction">
+                    <p>Bonjour ! Depuis de nombreuses années, la technologie et le monde de l'informatiques en particulier sont des domaines
+                        auquels j'accorde un grand intérêt, ce qui m'as motivé à rentrer en IUT informatique.
+                        Mon ambition serai de pouvoir exercer dans les métiers du <strong>développement web fullstack</strong> ou dans le domaine 
+                        du <strong>développement d'appliations fullstack.</strong>
+                    </p>
+                </article>
+
+                <article class="recherche">
+                    <p>Je suis actuellement à la recherche d'un <strong>stage</strong> dans le <strong>développement web</strong> ou dans le <strong>développement 
+                        d'application</strong>, l'objectif étant pour moi d'<strong>acquérir en expérience</strong> et de <strong>mettre un pas de plus dans le
+                        monde professionnel.</strong>
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <section class="coordonnees">
+                <h1>Coordonnées</h1>
+                <p>Guipavas (29490), France</p>
+                <p>07 66 29 86 19</p>
+                <nav>
+                    <a href="mailto:valentin.conchis@etudiant.univ-rennes1">valentin.conchis@etudiant.univ-rennes1</a>
+                </nav>
+            </section>
+
+            <section class="navigation">
+                <h1>Navigation</h1>
+                <nav>
+                    <a href="competences.html">
+                        <p>compétences</p>
+                    </a>
+
+                    <a href="formation.html">
+                        <p>formation</p>
+                    </a>
+
+                    <a href="contact.html">
+                        <p>contact</p>
+                    </a>  
+                </nav>
+            </section>
+
+            <section class="reseaux">
+                <h1>Réseaux</h1>
+                <nav>
+                    <a>
+                        <p>Linkedin</p>
+                    </a>
+
+                    <a>
+                        <p>Instagram</p>
+                    </a>
+
+                    <a>
+                        <p>GitHub</p>
+                    </a>
+                </nav>
+            </section>
+        </footer>
+    </body>
 </html>
