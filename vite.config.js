@@ -7,6 +7,8 @@ export default defineConfig({
             input: {
                 main: resolve("index.html"),
                 contact: resolve("./contact.html"),
+                formation: resolve("./formation.html"),
+                competences: resolve("./competences.html"),
             },
         },
     },
