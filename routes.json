@@ -9,5 +9,6 @@
     { "src": "/competence3", "dest": "/competence3.html" },
     { "src": "/competence4", "dest": "/competence4.html" },
     { "src": "/competence5", "dest": "/competence5.html" }
+    { "src": "/competence6", "dest": "/competence6.html" }
   ]
 }
