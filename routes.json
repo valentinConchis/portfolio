@@ -1,9 +1,13 @@
 {
-    "routes": [
-      { "src": "/", "dest": "/index.html" },
-      { "src": "/competences", "dest": "/competences.html" },
-      { "src": "/formation", "dest": "/formation.html" },
-      { "src": "/contact", "dest": "/contact.html" }
-    ]
-  }
-  
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/competences", "dest": "/competences.html" },
+    { "src": "/formation", "dest": "/formation.html" },
+    { "src": "/contact", "dest": "/contact.html" },
+    { "src": "/competence1", "dest": "/competence1.html" },
+    { "src": "/competence2", "dest": "/competence2.html" },
+    { "src": "/competence3", "dest": "/competence3.html" },
+    { "src": "/competence4", "dest": "/competence4.html" },
+    { "src": "/competence5", "dest": "/competence5.html" }
+  ]
+}
