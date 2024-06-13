@@ -1,0 +1,9 @@
+{
+    "routes": [
+      { "src": "/", "dest": "/index.html" },
+      { "src": "/competences", "dest": "/competences.html" },
+      { "src": "/formation", "dest": "/formation.html" },
+      { "src": "/contact", "dest": "/contact.html" }
+    ]
+  }
+  
