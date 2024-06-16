@@ -15,6 +15,7 @@ export default defineConfig({
                 competence4: resolve("./competence4.html"),
                 competence5: resolve("./competence5.html"),
                 competence6: resolve("./competence6.html"),
+
             },
         },
     },
