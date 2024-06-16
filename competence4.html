@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/scss/style.scss">
         <link rel="icon" type="image/svg+xml" href="../vite.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfolio</title>
@@ -34,9 +34,113 @@
             </nav>
     
             <div class="moncv">
-                <a href="public/document">
+                <a href="public/document/cv.pdf" download="cv.pdf">
                     <h3>Mon CV</h3>
                     <img src="public/icones/telechargement1.png">
                 </a>
             </div>
         </header>
+
+        <main class="main-competence4">
+            <section class="contexte">
+                <article>
+                    <h1>Projet : réalisation d'une base de données SQL</h1>
+                </article>
+            </section>
+
+            <section class="projet">
+                <article class="methode_sudoku">
+                    <div>
+                        <h1>Méthodes du Sudoku</h1>
+                        <hr>
+                    </div>
+                    <figure>
+                        <a href="public/document/s1.01/maquettage.pdf" target=_blank>
+                            <img src="public/images/maquette.png" title="image de la maquette">
+                        </a>
+
+                        <ul>
+                            <li>
+                                Singleton nu
+                            </li>
+
+                            <li>
+                                Singleton caché
+                            </li>
+
+                            <li>
+                                Paires nues
+                            </li>
+
+                            <li>
+                                Paires cachées
+                            </li>
+                        </ul>
+                    </figure>
+                </article>
+
+                <article class="backtracking">
+                    <div>
+                        <h1>Méthode du backtracking</h1>
+                        <hr>
+                    </div>
+                    <figure>
+                        <p>Etape consistant en la création d'un premier appercu de l'interface du jeu,
+                            et à l'anticipation de différents cas de situations, tel que la gestion des 
+                            erreurs ou des évènements dans le jeu.
+                        </p>
+
+                        <a href="public/document/s1.01/cahier_test.pdf" target=_blank>
+                            <img src="public/images/cahier_test.png" title="image du cahier de test">
+                        </a>
+                    </figure>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <section class="coordonnees">
+                <h1>Coordonnées</h1>
+                <p>Guipavas (29490), France</p>
+                <p>07 66 29 86 19</p>
+                <nav>
+                    <a href="mailto:valentin.conchis@etudiant.univ-rennes1">valentin.conchis@etudiant.univ-rennes1</a>
+                </nav>
+            </section>
+
+            <section class="navigation">
+                <h1>Navigation</h1>
+                <nav>
+                    <a href="competences.html">
+                        <p>compétences</p>
+                    </a>
+
+                    <a href="formation.html">
+                        <p>formation</p>
+                    </a>
+
+                    <a href="contact.html">
+                        <p>contact</p>
+                    </a>  
+                </nav>
+            </section>
+
+            <section class="reseaux">
+                <h1>Réseaux</h1>
+                <nav>
+                    <a>
+                        <p>Linkedin</p>
+                    </a>
+
+                    <a>
+                        <p>Instagram</p>
+                    </a>
+
+                    <a>
+                        <p>GitHub</p>
+                    </a>
+                </nav>
+            </section>
+        </footer>
+    </body>
+</html>
