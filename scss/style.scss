@@ -44,6 +44,10 @@ body{
     margin: 0;
     padding: 0;
 
+/*////////////////////
+/// CSS DES HEADER ///
+////////////////////*/
+
     header{
         background-color: #f2e3d5;
         margin:0;
@@ -58,7 +62,7 @@ body{
             margin-left: 2vw;
             flex: 1;
             color: #026773;
-            font-size: 2vh;
+            font-size: 1.7vh;
             align-items: center;
         }
 
@@ -102,11 +106,11 @@ body{
                 li{
                     background-color: #026773;
                     border-radius: 4vh;
-                    margin-left: 0.85vw;
-                    margin-right: 0.85vw;
+                    margin-left: 0.70vw;
+                    margin-right: 0.70vw;
                     padding: 0.8vh;
                     display: inline-block;
-                    width: 23.1vh;
+                    width: 11vw;
                     box-shadow: 0px 0.5vh 0.5vh #012e40;
 
                     &:hover{
@@ -119,11 +123,15 @@ body{
         }  
     }
 
+/*//////////////////////////////////////
+/// CSS DU MAIN DE LA PAGE D'ACCUEIL ///
+//////////////////////////////////////*/
+
     .main-accueil{
         margin-bottom: 6.6vh;
         margin-top: 6.6vh;
 
-        .présentation{
+        .presentation{
             height: 70.4vh;
             display: flex;
             flex-direction: column;
@@ -292,11 +300,15 @@ body{
         }
     }
 
+/*////////////////////////////////////////////
+/// CSS DU MAIN DE LA PAGE DES COMPETENCES ///
+////////////////////////////////////////////*/
+
     .main-competences{
         margin-bottom: 6.6vh;
         margin-top: 6.6vh;
 
-        section{
+        .grille{
             display: grid;
             grid-template-columns: repeat(2);
             grid-template-rows: 3;
@@ -311,17 +323,17 @@ body{
                     figure{                
                         background-color: #f2e3d5;
                         border: thick double #026773;
-                        width: 16.6vw;
+                        width: 33vh;
                         height: 49.7vh;
                         display: flex;
                         flex-direction: column;
                         box-shadow: 0.5vh 0.5vh 0.5vh #012e40;
 
                         img{
-                            width: 12.5vw;
+                            width: 24.9vh;
                             height: 24.9vh;
                             margin-top: 2.9vh;
-                            margin-left: 2.1vw;
+                            margin-left: 4.2vh;
                         }
 
                         h1{
@@ -380,6 +392,1142 @@ body{
         }
     }
 
+/*///////////////////////////////////////////////
+/// CSS DU MAIN DE LA PAGE DE LA COMPETENCE 1 ///
+///////////////////////////////////////////////*/
+
+    .main-competence1{
+        margin-bottom: 6.6vh;
+        margin-top: 6.6vh;
+
+        .contexte{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 6.6vh;
+
+            article{
+                background-color: #026773;
+                border: thick double #f2e3d5;
+                color: #f2e3d5;
+                width: 75vw;
+                text-align: center;
+                
+                h1{
+                    font-size: 4.5svh;
+                }
+            }
+        }
+
+        .projet{
+            color: #026773;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .maquettage_sudoku{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 6vw;
+                    }
+                }
+            }
+
+            .cahier_test_vide{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                        margin-left: 1vw;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-right: 2vw;
+                    }
+                }
+            }
+
+            .pseudocode{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 4.5vw;
+                    }
+                }
+            }
+
+            .developpement{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                        margin-left: 10vw;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 5.5vw;
+                    }
+                }
+            }
+        }
+    }
+
+/////////////////////////////////////////////////
+/// CSS DU MAIN DE LA PAGE DE LA COMPETENCE 2 ///
+/////////////////////////////////////////////////
+
+    .main-competence2{
+        margin-bottom: 6.6vh;
+        margin-top: 6.6vh;
+
+        .contexte{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 6.6vh;
+
+            article{
+                background-color: #026773;
+                border: thick double #f2e3d5;
+                color: #f2e3d5;
+                width: 75vw;
+                text-align: center;
+                
+                h1{
+                    font-size: 4.5svh;
+                }
+            }
+        }
+
+        .projet{
+            color: #026773;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .methode_sudoku{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 6vw;
+                    }
+                }
+            }
+
+            .backtracking{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                        margin-left: 1vw;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-right: 2vw;
+                    }
+                }
+            }
+
+            .code_definitif{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 4.5vw;
+                    }
+                }
+            }
+        }
+    }
+
+/*///////////////////////////////////////////////
+/// CSS DU MAIN DE LA PAGE DE LA COMPETENCE 3 ///
+///////////////////////////////////////////////*/
+
+    .main-competence3{
+        margin-bottom: 6.6vh;
+        margin-top: 6.6vh;
+
+        .contexte{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 6.6vh;
+
+            article{
+                background-color: #026773;
+                border: thick double #f2e3d5;
+                color: #f2e3d5;
+                width: 75vw;
+                text-align: center;
+                
+                h1{
+                    font-size: 4.5svh;
+                }
+            }
+        }
+
+        .projet{
+            color: #026773;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .methode_sudoku{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 6vw;
+                    }
+                }
+            }
+
+            .backtracking{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                        margin-left: 1vw;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-right: 2vw;
+                    }
+                }
+            }
+
+            .code_definitif{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 4.5vw;
+                    }
+                }
+            }
+        }
+    }
+
+/*///////////////////////////////////////////////
+/// CSS DU MAIN DE LA PAGE DE LA COMPETENCE 4 ///
+///////////////////////////////////////////////*/
+
+    .main-competence4{
+        margin-bottom: 6.6vh;
+        margin-top: 6.6vh;
+
+        .contexte{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 6.6vh;
+
+            article{
+                background-color: #026773;
+                border: thick double #f2e3d5;
+                color: #f2e3d5;
+                width: 75vw;
+                text-align: center;
+                
+                h1{
+                    font-size: 4.5svh;
+                }
+            }
+        }
+
+        .projet{
+            color: #026773;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .methode_sudoku{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 6vw;
+                    }
+                }
+            }
+
+            .backtracking{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                        margin-left: 1vw;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-right: 2vw;
+                    }
+                }
+            }
+
+            .code_definitif{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 4.5vw;
+                    }
+                }
+            }
+        }  
+    }
+
+/*///////////////////////////////////////////////
+/// CSS DU MAIN DE LA PAGE DE LA COMPETENCE 5 ///
+///////////////////////////////////////////////*/
+
+    .main-competence5{
+        margin-bottom: 6.6vh;
+        margin-top: 6.6vh;
+
+        .contexte{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 6.6vh;
+
+            article{
+                background-color: #026773;
+                border: thick double #f2e3d5;
+                color: #f2e3d5;
+                width: 75vw;
+                text-align: center;
+                
+                h1{
+                    font-size: 4.5svh;
+                }
+            }
+        }
+
+        .projet{
+            color: #026773;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .expression_besoins{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 6vw;
+                    }
+                }
+            }
+
+            .arborescence{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                        margin-left: 1vw;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-right: 2vw;
+                    }
+                }
+            }
+
+            .charte{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 4.5vw;
+                    }
+                }
+            }
+
+            .maquettage_web{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 4.5vw;
+                    }
+                }
+            }
+
+            .edification{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 4.5vw;
+                    }
+                }
+            }
+        }
+    }
+
+/*///////////////////////////////////////////////
+/// CSS DU MAIN DE LA PAGE DE LA COMPETENCE 6 ///
+///////////////////////////////////////////////*/
+
+    .main-competence6{
+        margin-bottom: 6.6vh;
+        margin-top: 6.6vh;
+
+        .contexte{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 6.6vh;
+
+            article{
+                background-color: #026773;
+                border: thick double #f2e3d5;
+                color: #f2e3d5;
+                width: 75vw;
+                text-align: center;
+                
+                h1{
+                    font-size: 4.5svh;
+                }
+            }
+        }
+
+        .projet{
+            color: #026773;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .methode_sudoku{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 6vw;
+                    }
+                }
+            }
+
+            .backtracking{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                        margin-left: 1vw;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-right: 2vw;
+                    }
+                }
+            }
+
+            .code_definitif{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                width: 90vw;
+                margin-bottom: 3vh;
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 3vh;
+
+                    h1{
+                        font-size: 3.5vh;
+                        margin-bottom: 3vh;
+                    }
+
+                    hr{
+                        width: 60vw;
+                        height: 0.1vh;
+                        background-color: #012e40;
+                    }
+                }
+
+                figure{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3vh;
+
+                    img{
+                        height: 50vh;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 3vh;
+                        width: 40vw;
+                        margin-left: 4.5vw;
+                    }
+                }
+            }
+        }
+    }
+
+/*/////////////////////////////////////////
+/// CSS DU MAIN DE LA PAGE DE FORMATION ///
+/////////////////////////////////////////*/
+
+    .main-formation{
+        margin-bottom: 6.6vh;
+        margin-top: 6.6vh;
+    }
+
+/*///////////////////////////////////////
+/// CSS DU MAIN DE LA PAGE DE CONTACT ///
+///////////////////////////////////////*/
+
+    .main-contact{
+        margin-bottom: 6.6vh;
+        margin-top: 6.6vh;
+    }
+
+/*////////////////////
+/// CSS DES FOOTER ///
+////////////////////*/
+
     footer{
         background-color: #f2e3d5;
         border: thick double #026773;
@@ -387,7 +1535,8 @@ body{
         text-align: center;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
         color: #026773;
         padding-bottom: 1.4vh;
         padding-top: 1.4vh;
@@ -401,6 +1550,9 @@ body{
         }
 
         .coordonnees{
+            margin-left: 10vw;
+            width: 18vw;
+
             nav{
                 a{
                     text-decoration: none;
@@ -414,8 +1566,6 @@ body{
             }
         }
         .navigation{
-            margin-left: 5.1vw;
-            margin-right: 5.1vw;
 
             nav{
                 a{
@@ -430,6 +1580,9 @@ body{
         }
 
         .reseaux{
+            margin-right: 10vw;
+            width: 18vw;
+
             a{
                 text-decoration: none;
                 color: #026773;
