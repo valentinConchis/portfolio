@@ -19,7 +19,7 @@ export default defineConfig({
                 cahier_test: resolve("./public/document/s1.01/cahier_test.pdf"),
                 maquettage: resolve("./public/document/s1.01/maquettage.pdf"),
                 sudoku: resolve("./public/document/s1.01/sudoku.pdf"),
-                cv: resolve("./document/cv.pdf"),
+                cv: resolve(".public/document/cv.pdf"),
             },
         },
     },
