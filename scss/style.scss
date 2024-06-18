@@ -499,6 +499,7 @@ body{
 
                     img{
                         height: 50vh;
+                        width: 42vw;
                         margin-left: 1vw;
                     }
 
@@ -666,11 +667,18 @@ body{
                         height: 50vh;
                     }
 
-                    p{
+                    div{
+                        margin-left: 11vw;
+
+                       p{
                         text-align: center;
                         font-size: 3vh;
                         width: 40vw;
-                        margin-left: 6vw;
+                        } 
+
+                        ul{
+                            font-size: 3vh;
+                        }
                     }
                 }
             }
@@ -707,14 +715,14 @@ body{
 
                     img{
                         height: 50vh;
-                        margin-left: 1vw;
+                        margin-left: 10vw;
                     }
 
                     p{
                         text-align: center;
                         font-size: 3vh;
                         width: 40vw;
-                        margin-right: 2vw;
+                        margin-left: 8vw;
                     }
                 }
             }
@@ -757,7 +765,7 @@ body{
                         text-align: center;
                         font-size: 3vh;
                         width: 40vw;
-                        margin-left: 4.5vw;
+                        margin-left: 7vw;
                     }
                 }
             }
@@ -871,14 +879,14 @@ body{
 
                     img{
                         height: 50vh;
-                        margin-left: 1vw;
+                        margin-left: 6vw;
                     }
 
                     p{
                         text-align: center;
                         font-size: 3vh;
                         width: 40vw;
-                        margin-right: 2vw;
+                        margin-left: 4vh;
                     }
                 }
             }
@@ -1199,7 +1207,7 @@ body{
 
                     img{
                         height: 50vh;
-                        margin-left: 1vw;
+                        width: 40vw;
                     }
 
                     p{
@@ -1292,7 +1300,7 @@ body{
                         text-align: center;
                         font-size: 3vh;
                         width: 40vw;
-                        margin-left: 4.5vw;
+                        margin-right: 4.5vw;
                     }
                 }
             }
@@ -1374,7 +1382,7 @@ body{
             flex-direction: column;
             align-items: center;
 
-            .methode_sudoku{
+            .recherche_documentaire{
                 background-color: #f2e3d5;
                 border: thick double #026773;
                 width: 90vw;
@@ -1412,12 +1420,12 @@ body{
                         text-align: center;
                         font-size: 3vh;
                         width: 40vw;
-                        margin-left: 6vw;
+                        margin-left: 2vw;
                     }
                 }
             }
 
-            .backtracking{
+            .synthese{
                 background-color: #f2e3d5;
                 border: thick double #026773;
                 width: 90vw;
@@ -1449,19 +1457,19 @@ body{
 
                     img{
                         height: 50vh;
-                        margin-left: 1vw;
+                        margin-left: 5vw;
                     }
 
                     p{
                         text-align: center;
                         font-size: 3vh;
                         width: 40vw;
-                        margin-right: 2vw;
+                        margin-left: 2vw;
                     }
                 }
             }
 
-            .code_definitif{
+            .presentation{
                 background-color: #f2e3d5;
                 border: thick double #026773;
                 width: 90vw;
@@ -1499,7 +1507,7 @@ body{
                         text-align: center;
                         font-size: 3vh;
                         width: 40vw;
-                        margin-left: 4.5vw;
+                        margin-left: 2vw;
                     }
                 }
             }
@@ -1513,6 +1521,70 @@ body{
     .main-formation{
         margin-bottom: 6.6vh;
         margin-top: 6.6vh;
+
+        section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #012e40;
+
+            .lycee{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 5vh;
+                align-items: center;
+                width: 80vw;
+                padding-top: 2vh;
+                padding-bottom: 2vh;
+
+                img{
+                    height: 50vh;
+                    width: 35vw;
+                }
+
+                h1{
+                    font-size: 5vh;
+                }
+
+                h3{
+                    font-size: 3vh;
+                }
+
+                p{
+                    font-size: 2vh;
+                }
+            }
+
+            .iut{
+                background-color: #f2e3d5;
+                border: thick double #026773;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 80vw;
+                padding-top: 2vh;
+                padding-bottom: 2vh;
+
+                img{
+                    height: 60vh;
+                    width: 35vw;
+                }
+
+                h1{
+                    font-size: 5vh;
+                }
+
+                h3{
+                    font-size: 3vh;
+                }
+
+                ul{
+                    font-size: 2vh;
+                }
+            }
+        }
     }
 
     /////////////////////////////////////////
